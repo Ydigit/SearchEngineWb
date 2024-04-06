@@ -29,7 +29,7 @@ Integrate an AI chatbot for user assistance and contacting staff.
 
 ### `To run SearchEngineWb locally, follow these steps:`
 
-Clone this repository to your local machine.
+Clone this repository to your local machine. \n
     clone https://github.com/Ydigit/SearchEngineWb
 Navigate to the project directory in your terminal.
 Run npm install to install dependencies.
