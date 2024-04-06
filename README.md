@@ -6,12 +6,12 @@ Visit the result in : [deploylink] (https://ydigit.github.io/SearchEngineWb)
 
 ## To get started with SearchEngineWb, follow these steps:
 
-    Visit the deployment [deploylink] (https://ydigit.github.io/SearchEngineWb)
-    Browse through the available shoe products.
-    Use the filtering options to refine your search.
-    Add desired items to the shopping cart.
-    View and manage items in the shopping cart.
-    Proceed to checkout when ready to make a purchase.
+Visit the deployment [deploylink] (https://ydigit.github.io/SearchEngineWb)
+Browse through the available shoe products.
+Use the filtering options to refine your search.
+Add desired items to the shopping cart.
+View and manage items in the shopping cart.
+Proceed to checkout when ready to make a purchase.
 
 ## Improvements Needed
 
