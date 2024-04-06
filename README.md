@@ -32,12 +32,16 @@ Integrate an AI chatbot for user assistance and contacting staff.
 Clone this repository to your local machine.
 
     clone https://github.com/Ydigit/SearchEngineWb
-    
+
 Navigate to the project directory in your terminal.
+
 Run npm install to install dependencies.
+
     npm install
     npm start
+
 Run npm start to start the development server.
+
 Open the http://localhost:3000 in your browser to view the app.
 
 ## Credits
