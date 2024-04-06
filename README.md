@@ -14,26 +14,29 @@ View and manage items in the shopping cart.
 
 ### Improvements Needed
 
-    Enhance product display: Show a blank page when a product lacks price, category, or color information combination.
-    Improve visibility of total cart price.
-    Integrate an AI chatbot for user assistance and contacting staff.
+Enhance product display: Show a blank page when a product lacks price, category, or color information combination.
+Improve visibility of total cart price.
+Integrate an AI chatbot for user assistance and contacting staff.
 
 ### `Technologies Used`
 
-    React
-    JavaScript
-    HTML
-    CSS
+- React
+- JavaScript
+- HTML
+- CSS
 
 ## Installation
 
 ### `To run SearchEngineWb locally, follow these steps:`
 
-    Clone this repository to your local machine.
-    Navigate to the project directory in your terminal.
-    Run npm install to install dependencies.
-    Run npm start to start the development server.
-    Open the http://localhost:3000 in your browser to view the app.
+Clone this repository to your local machine.
+    clone https://github.com/Ydigit/SearchEngineWb
+Navigate to the project directory in your terminal.
+Run npm install to install dependencies.
+    npm install
+    npm start
+Run npm start to start the development server.
+Open the http://localhost:3000 in your browser to view the app.
 
 ## Credits
 
