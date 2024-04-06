@@ -28,7 +28,7 @@ Proceed to checkout when ready to make a purchase.
 
 ## Installation
 
-# `To run SearchEngineWb locally, follow these steps:`
+## `To run SearchEngineWb locally, follow these steps:`
 
     Clone this repository to your local machine.
     Navigate to the project directory in your terminal.
@@ -36,7 +36,7 @@ Proceed to checkout when ready to make a purchase.
     Run npm start to start the development server.
     Open the [deploylink] (http://localhost:3000) in your browser to view the app.
 
-## `Credits`
+## Credits
 
 This project was created by Ydigit.
 
