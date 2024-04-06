@@ -4,7 +4,7 @@ SearchEngineWb is a web application for browsing and purchasing shoes. It offers
 
 Visit the result in : [deploylink] (https://ydigit.github.io/SearchEngineWb)
 
-# To get started with SearchEngineWb, follow these steps:
+## To get started with SearchEngineWb, follow these steps:
 
     Visit the deployment [deploylink] (https://ydigit.github.io/SearchEngineWb)
     Browse through the available shoe products.
@@ -13,7 +13,7 @@ Visit the result in : [deploylink] (https://ydigit.github.io/SearchEngineWb)
     View and manage items in the shopping cart.
     Proceed to checkout when ready to make a purchase.
 
-# `Improvements Needed`
+## Improvements Needed
 
     Enhance product display: Show a blank page when a product lacks price, category, or color information.
     Improve visibility of total cart price.
