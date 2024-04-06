@@ -10,58 +10,63 @@ import "./index.css";
 import ItemsonCart from "./components/ItemsonCart";
 
 function App() {
+  // Define component states
   const [inventory, setInventory] = useState([]); // Define inventory state
-  const [selectedCategory, setSelectedCategory] = useState(null);
-  const [cartItems, setCartItems] = useState([]); // novo estado para o carrinho
-  // ----------- Input Filter -----------
+  const [selectedCategory, setSelectedCategory] = useState(null); // Define selected category state
+  const [cartItems, setCartItems] = useState([]); // Define cart items state
+  
+  // Input Filter states
   const [query, setQuery] = useState("");
   const [cart, setCart] = useState([]);
   const [isCartVisible, setIsCartVisible] = useState(false);
 
-  /** */
+  // Function to remove an item from the cart
   const removeFromCart = (productId) => {
     setCart(prevCart => prevCart.filter(product => product.cartId !== productId));
   };
 
+  // Function to toggle cart visibility
   const toggleCart = () => {
     setIsCartVisible(!isCartVisible);
   };
-  <button onClick={toggleCart}>Cart</button>
-  { isCartVisible && <Cart items={cartItems} removeFromCart={removeFromCart} /> }
 
+  // Function to update quantity of an item in the cart
   const updateQuantity = (product, quantity) => {
     setCartItems((prevCart) => prevCart.map(item => item.id === product.id ? { ...item, quantity } : item));
   };
 
+  // Function to handle input change
   const handleInputChange = (event) => {
     setQuery(event.target.value);
   };
 
+  // Filter items based on user input
   const filteredItems = products.filter(
     (product) => product.title.toLowerCase().indexOf(query.toLowerCase()) !== -1
   );
 
-  // ----------- Radio Filtering -----------
+  // Function to handle radio filter change
   const handleChange = (event) => {
     setSelectedCategory(event.target.value);
   };
 
-  // ------------ Button Filtering -----------
+  // Function to handle button filter click
   const handleClick = (event) => {
     setSelectedCategory(event.target.value);
   };
-  //**** */ //verificar o numero de identificador em math random
+
+  // Function to add item to cart
   function addToCart(product) {
     setCart(prevCart => {
       const newCart = [...prevCart, { ...product, cartId: Date.now() }];
-      console.log(newCart); //control
+      console.log(newCart); // Control log
       return newCart;
     });
   }
 
+  // Function to filter data based on selected category and query
   function filteredData(products, selected, query) {
     let filteredProducts = products;
-
 
     // Filtering Input Items
     if (query) {
@@ -116,7 +121,5 @@ function App() {
     </>
   );
 }
-
-
 
 export default App;
