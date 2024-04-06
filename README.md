@@ -3,7 +3,7 @@
 SearchEngineWb is a web application for browsing and purchasing shoes. It offers a diverse selection of shoe products with detailed information such as images, descriptions, prices, and categories. Users can conveniently filter products by category, color, and price range. The shopping cart feature enables users to add products and view them with the total price.
 Usage
 
-# To get started with SearchEngineWb, follow these steps:
+### `To get started with SearchEngineWb, follow these steps:`
 
     Visit the deployment link: SearchEngineWb Deployment.
     Browse through the available shoe products.
@@ -12,13 +12,13 @@ Usage
     View and manage items in the shopping cart.
     Proceed to checkout when ready to make a purchase.
 
-# Improvements Needed
+# `Improvements Needed`
 
     Enhance product display: Show a blank page when a product lacks price, category, or color information.
     Improve visibility of total cart price.
     Integrate an AI chatbot for user assistance and contacting staff.
 
-# Technologies Used
+# `Technologies Used`
 
     React
     JavaScript
@@ -27,7 +27,7 @@ Usage
 
 ## Installation
 
-# To run SearchEngineWb locally, follow these steps:
+# `To run SearchEngineWb locally, follow these steps:`
 
     Clone this repository to your local machine.
     Navigate to the project directory in your terminal.
@@ -35,7 +35,7 @@ Usage
     Run npm start to start the development server.
     Open the [deploylink] (http://localhost:3000) in your browser to view the app.
 
-#Credits
+# `Credits`
 
 This project was created by Ydigit.
 
