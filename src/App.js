@@ -36,15 +36,6 @@ function App() {
   const handleInputChange = (event) => {
     setQuery(event.target.value);
   };
-  /** 
-    const addToCart = (product) => {
-      setCartItems(prevCart => {
-        const newCart = [...prevCart, product];
-        console.log(newCart); //control
-        return newCart;
-      });
-    };
-    */
 
   const filteredItems = products.filter(
     (product) => product.title.toLowerCase().indexOf(query.toLowerCase()) !== -1
