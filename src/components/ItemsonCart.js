@@ -9,7 +9,7 @@ const ItemsonCart = ({ item, removeFromCart }) => {
     return (
         <div>
             <h3>{item.title}</h3>
-            <p>{item.newPrice}</p>
+            <p>Preço: ${item.newPrice}</p>
             
             <button className="remove-button" onClick={() => removeFromCart(item.cartId)}>Remove</button>
         </div>

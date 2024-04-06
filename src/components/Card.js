@@ -2,7 +2,7 @@ import { BsFillBagFill } from "react-icons/bs";
 
 // Card component receives product details and addToCart function as props
 const Card = ({ img, title, star, reviews, prevPrice, newPrice, addToCart }) => {
-  
+
   return (
     <>
       {/* Card section */}
@@ -24,7 +24,8 @@ const Card = ({ img, title, star, reviews, prevPrice, newPrice, addToCart }) => 
           <section className="card-price">
             <div className="price">
               {/* Display previous price with strike-through */}
-              <del>{prevPrice}</del> {newPrice}
+              {/* Display previous price with strike-through */}
+              <del>${prevPrice}</del> ${newPrice}
             </div>
             {/* Add to cart button */}
             <div className="bag" onClick={() => addToCart({ img, title, star, reviews, prevPrice, newPrice })}>
