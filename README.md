@@ -13,13 +13,13 @@ Add desired items to the shopping cart.
 View and manage items in the shopping cart.
 Proceed to checkout when ready to make a purchase.
 
-## Improvements Needed
+### Improvements Needed
 
     Enhance product display: Show a blank page when a product lacks price, category, or color information.
     Improve visibility of total cart price.
     Integrate an AI chatbot for user assistance and contacting staff.
 
-# `Technologies Used`
+## `Technologies Used`
 
     React
     JavaScript
@@ -36,7 +36,7 @@ Proceed to checkout when ready to make a purchase.
     Run npm start to start the development server.
     Open the [deploylink] (http://localhost:3000) in your browser to view the app.
 
-# `Credits`
+## `Credits`
 
 This project was created by Ydigit.
 
