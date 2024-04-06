@@ -47,9 +47,6 @@ const Nav = ({ handleInputChange, query, cartItems, cart, removeFromCart, update
         {isCartVisible && (
           <Cart cart={cart} removeFromCart={removeFromCart} updateQuantity={updateQuantity} />
         )}
-        <a href="#" onClick={toggleInventory}>
-          <AiOutlineUserAdd className="nav-icons" />
-        </a>
         {isInventoryVisible && (
           <Inventory products={inventory} /> 
         )}

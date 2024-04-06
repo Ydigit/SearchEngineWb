@@ -100,8 +100,7 @@ function App() {
 
   return (
     <>
-      <button onClick={toggleCart}>Cart</button>
-      {isCartVisible && <Cart cart={cart} removeFromCart={removeFromCart} />}
+
       <Sidebar handleChange={handleChange} />
       <Navigation
         query={query}
